@@ -43,7 +43,7 @@ ___
 
 **Ответ:**
 
-![скриншот](https://photos.app.goo.gl/QtevvbRBWpgLTmHCA)
+![screenshot](https://photos.google.com/photo/AF1QipNDz5OyHlU8I3fN9fP06AyQxA5SEFRLKH1bNeRS)
 
 
 # Задание 4. Запись данных в Redis.
@@ -54,7 +54,7 @@ ___
 
 **Ответ:**
 
-![скриншот](https://photos.app.goo.gl/ZmCHuy3HnUFiGaen8)
+![screenshot](https://photos.app.goo.gl/ZmCHuy3HnUFiGaen8)
 
 
 # Дополнительные задания (со звездочкой*)
