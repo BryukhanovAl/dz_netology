@@ -32,9 +32,9 @@ ___
 ***Приведите скриншот systemctl status memcached, где будет видно, что memcached запущен.***
 ___
 **Ответ**
-![Снимок экрана от 2022-09-28 23-54-32](https://user-images.githubusercontent.com/94833070/193447517-f1662715-e01d-4a2d-ab92-17d3e936a21d.png)
 
-![screenshot](https://photos.google.com/photo/AF1QipNDz5OyHlU8I3fN9fP06AyQxA5SEFRLKH1bNeRS)
+![Снимок экрана от 2022-10-02 14-22-15](https://user-images.githubusercontent.com/94833070/193447713-d81c4d1b-0193-4754-90ae-eccca931366c.png)
+
 
 # Задание 3. Удаление по TTL в Memcached.
 
@@ -44,10 +44,10 @@ ___
 
 **Ответ:**
 
-![screenshot](https://photos.google.com/photo/AF1QipNDz5OyHlU8I3fN9fP06AyQxA5SEFRLKH1bNeRS) 
+![Снимок экрана от 2022-09-28 23-54-32](https://user-images.githubusercontent.com/94833070/193447731-a04f5026-15f7-49de-9dcc-acc3a7a80d2e.png)
 
-
-# Задание 4. Запись данных в Redis.
+# Задание 4
+. Запись данных в Redis.
 
 Запишите в redis несколько ключей с любыми именами и значениями.
 Через redis-cli достаньте все записанные ключи и значения из базы, приведите скриншот этой операции.
@@ -55,8 +55,7 @@ ___
 
 **Ответ:**
 
-
-
+![Снимок экрана от 2022-10-01 00-59-48](https://user-images.githubusercontent.com/94833070/193447749-302bc66d-9c35-4cad-922f-ff53b66d89c7.png)
 
 # Дополнительные задания (со звездочкой*)
 
