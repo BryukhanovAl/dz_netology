@@ -31,9 +31,9 @@ ___
 Установите и запустите memcached.
 ***Приведите скриншот systemctl status memcached, где будет видно, что memcached запущен.***
 ___
-**ОтвеТ**
+**Ответ**
 
-![alt скриншот systemctl status memcached ](http://https://photos.app.goo.gl/mKuHjiG2xMAcBymP8)
+![screenshot](https://photos.google.com/photo/AF1QipNDz5OyHlU8I3fN9fP06AyQxA5SEFRLKH1bNeRS)
 
 # Задание 3. Удаление по TTL в Memcached.
 
@@ -43,7 +43,7 @@ ___
 
 **Ответ:**
 
-![screenshot](https://photos.google.com/photo/AF1QipNDz5OyHlU8I3fN9fP06AyQxA5SEFRLKH1bNeRS)
+![screenshot](https://photos.google.com/photo/AF1QipNDz5OyHlU8I3fN9fP06AyQxA5SEFRLKH1bNeRS) 
 
 
 # Задание 4. Запись данных в Redis.
@@ -54,7 +54,7 @@ ___
 
 **Ответ:**
 
-![screenshot](https://photos.app.goo.gl/ZmCHuy3HnUFiGaen8)
+
 
 
 # Дополнительные задания (со звездочкой*)
