@@ -32,6 +32,7 @@ ___
 ***Приведите скриншот systemctl status memcached, где будет видно, что memcached запущен.***
 ___
 **Ответ**
+![Снимок экрана от 2022-09-28 23-54-32](https://user-images.githubusercontent.com/94833070/193447517-f1662715-e01d-4a2d-ab92-17d3e936a21d.png)
 
 ![screenshot](https://photos.google.com/photo/AF1QipNDz5OyHlU8I3fN9fP06AyQxA5SEFRLKH1bNeRS)
 
