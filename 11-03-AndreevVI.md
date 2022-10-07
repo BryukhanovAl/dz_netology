@@ -10,6 +10,7 @@ ___
 Установил и запустил elasticsearch, после чего поменял параметр cluster_name на cluster_andreevvi
 
 **Скриншот**
+
 ![Снимок экрана от 2022-10-06 21-52-12](https://user-images.githubusercontent.com/94833070/194648874-fb0714bb-5767-4576-a0fa-fdda2af0dde9.png)
 
 # Задание 2. Kibana.
@@ -19,6 +20,7 @@ ___
 ___
 **Ответ**
 
+
 ![Снимок экрана от 2022-10-06 22-50-40](https://user-images.githubusercontent.com/94833070/194648944-b4b117ee-c4ae-49e7-bfb1-c48ac6b5f994.png)
 
 # Задание 3. Logstash.
@@ -27,6 +29,7 @@ ___
 Приведите скриншот интерфейса kibana, на котором видны логи nginx.
 ___
 **Ответ**
+
 ![Снимок экрана от 2022-10-08 03-23-30](https://user-images.githubusercontent.com/94833070/194649009-8abfe689-9858-4af9-89a5-12a68a04134c.png)
 
 # Задание 4. Filebeat.
@@ -36,6 +39,7 @@ ___
 ___
 **Ответ**
 Установил Filebeat и посмотрел логи
+
 ![Снимок экрана от 2022-10-08 01-30-13](https://user-images.githubusercontent.com/94833070/194649149-4b1129ed-44dd-40d2-8702-eb07d1698606.png)
 
 # Дополнительные задания (со звездочкой*)
