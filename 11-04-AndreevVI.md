@@ -37,8 +37,8 @@ ___
 Пример содержимого hosts файла:
 
 $ cat /etc/hosts
-192.168.0.10 rmq01
-192.168.0.11 rmq02
+192.168.0.16 rmq01
+192.168.0.17 rmq02
 После этого ваши машины могут пинговаться по имени.
 
 Затем объедините две машины в кластер и создайте политику ha-all на все очереди.
@@ -63,7 +63,6 @@ Bнформация о доступных нодах в кластере и вк
 
 вывод команды с двух нод: rabbitmqctl cluster_status и rabbitmqadmin get queue='hello'
 ![6](https://user-images.githubusercontent.com/94833070/195399341-67402162-0df3-4b07-8acb-2d034a1fa032.png)
-![8](https://user-images.githubusercontent.com/94833070/195399415-10e2c98f-7401-44a7-a3d2-5b37e450d79e.png)
 ![8](https://user-images.githubusercontent.com/94833070/195399548-a5a3241e-d272-4500-9ed4-72c23082fd3f.png)
 
 Запускаю  скрипт producer.py   
