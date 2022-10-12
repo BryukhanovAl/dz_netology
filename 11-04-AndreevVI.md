@@ -26,9 +26,11 @@ ___
 
 **Ответ**
 очередь hello 
+
 ![2](https://user-images.githubusercontent.com/94833070/195398822-3684467e-b7de-4df5-a29a-b49df4a5c1d8.png)
 
 скриншот результата выполнения скрипта consumer.py
+
 ![3](https://user-images.githubusercontent.com/94833070/195398843-1ccb27d4-322d-42c7-9e8b-5c9e5d14dc1a.png)
 
 # Задание 3. Подготовка HA кластера
@@ -56,16 +58,19 @@ $ rabbitmqadmin get queue='hello'
 Приложите скриншот результата работы второго скрипта.
 ___
 **Ответ**
-Bнформация о доступных нодах в кластере и включенной политикой
+
+Информация о доступных нодах в кластере и включенной политикой
 
 ![4 1](https://user-images.githubusercontent.com/94833070/195398965-ebcf90ac-0e89-493b-9699-789e637925db.png)
 ![5](https://user-images.githubusercontent.com/94833070/195399288-64c47176-f61a-4ab7-ba7a-4c4f5c51f93b.png)
 
-вывод команды с двух нод: rabbitmqctl cluster_status и rabbitmqadmin get queue='hello'
+Вывод команды с двух нод: rabbitmqctl cluster_status и rabbitmqadmin get queue='hello'
+
 ![6](https://user-images.githubusercontent.com/94833070/195399341-67402162-0df3-4b07-8acb-2d034a1fa032.png)
 ![8](https://user-images.githubusercontent.com/94833070/195399548-a5a3241e-d272-4500-9ed4-72c23082fd3f.png)
 
-Запускаю  скрипт producer.py   
+Запускаю  скрипт producer.py
+
 ![7 2](https://user-images.githubusercontent.com/94833070/195399639-8ce53089-70e2-4bd5-838a-91143289587f.png)
 ![7](https://user-images.githubusercontent.com/94833070/195399650-6d555a01-f5a8-4b3b-9863-a2d91f822691.png)
 
