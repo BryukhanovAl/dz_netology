@@ -9,7 +9,7 @@
 ___
 **Ответ**
 
-![Снимок экрана от 2022-10-11 16-03-56](https://user-images.githubusercontent.com/94833070/195062442-5e3e0c98-8156-4123-86c1-d1b155094e3c.png)
+![1](https://user-images.githubusercontent.com/94833070/195398754-5540893d-2f11-485b-af49-d67e4d89b7e4.png)
 
 # Задание 2. Отправка и получение сообщений.
 Используя приложенные скрипты, проведите тестовую отправку и получение сообщения. Для отправки сообщений необходимо запустить скрипт producer.py
@@ -26,10 +26,10 @@ ___
 
 **Ответ**
 очередь hello 
-![Снимок экрана от 2022-10-11 17-19-45](https://user-images.githubusercontent.com/94833070/195065227-16c00e1d-70ad-42f9-8e27-f8ff23bee9f9.png)
+![2](https://user-images.githubusercontent.com/94833070/195398822-3684467e-b7de-4df5-a29a-b49df4a5c1d8.png)
 
 скриншот результата выполнения скрипта consumer.py
-![Снимок экрана от 2022-10-11 16-17-34](https://user-images.githubusercontent.com/94833070/195062663-99e23fef-b386-4ee9-965c-06e6fdbf9646.png)
+![3](https://user-images.githubusercontent.com/94833070/195398843-1ccb27d4-322d-42c7-9e8b-5c9e5d14dc1a.png)
 
 # Задание 3. Подготовка HA кластера
 Используя Vagrant или VirtualBox, создайте вторую виртуальную машину и установите RabbitMQ. Добавьте в файл hosts название и ip адрес каждой машины, чтобы машины могли видеть друг друга по имени.
@@ -56,15 +56,24 @@ $ rabbitmqadmin get queue='hello'
 Приложите скриншот результата работы второго скрипта.
 ___
 **Ответ**
+Bнформация о доступных нодах в кластере и включенной политикой
 
-![Снимок экрана от 2022-10-11 16-04-29](https://user-images.githubusercontent.com/94833070/195062783-6276217f-76a2-4445-a7d4-c470085677f0.png)
+![4 1](https://user-images.githubusercontent.com/94833070/195398965-ebcf90ac-0e89-493b-9699-789e637925db.png)
+![5](https://user-images.githubusercontent.com/94833070/195399288-64c47176-f61a-4ab7-ba7a-4c4f5c51f93b.png)
+
 вывод команды с двух нод: rabbitmqctl cluster_status и rabbitmqadmin get queue='hello'
-![Снимок экрана от 2022-10-11 16-26-02](https://user-images.githubusercontent.com/94833070/195066274-8a24e0d9-7538-44ce-9796-1a8bdb2e8e4a.png)
+![6](https://user-images.githubusercontent.com/94833070/195399341-67402162-0df3-4b07-8acb-2d034a1fa032.png)
+![8](https://user-images.githubusercontent.com/94833070/195399415-10e2c98f-7401-44a7-a3d2-5b37e450d79e.png)
+![8](https://user-images.githubusercontent.com/94833070/195399548-a5a3241e-d272-4500-9ed4-72c23082fd3f.png)
 
-Запускаю  скрипт producer.py и отключаю одну из нод и запускаю consumer.py 
-вывод тот же 
+Запускаю  скрипт producer.py   
+![7 2](https://user-images.githubusercontent.com/94833070/195399639-8ce53089-70e2-4bd5-838a-91143289587f.png)
+![7](https://user-images.githubusercontent.com/94833070/195399650-6d555a01-f5a8-4b3b-9863-a2d91f822691.png)
 
-![Снимок экрана от 2022-10-11 16-48-40](https://user-images.githubusercontent.com/94833070/195067362-163f381f-aede-46c7-89c5-490420703150.png)
+Отключаю одну из нод и запускаю consumer.py  вывод тот же 
+
+![9](https://user-images.githubusercontent.com/94833070/195399692-b240dd74-7b17-4ce6-89f6-03561c42ead6.png)
+
 
 # Дополнительные задания (со звездочкой*)
 Эти задания дополнительные (не обязательные к выполнению) и никак не повлияют на получение вами зачета по этому домашнему заданию. Вы можете их выполнить, если хотите глубже и/или шире разобраться в материале.
