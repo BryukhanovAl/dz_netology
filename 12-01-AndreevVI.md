@@ -30,39 +30,63 @@ ___
 1 фио  - фамилия имя и отчество сотрудника 
 
 2 ОКЛАД  - заработная плата сотрудника
+
 3 должность  - Занимаемая должность сотрудника
+
 4 Тип подразделения - отдел в котором работает сотрудник
+
 5 Дата - дата найма сотрудника
+
 6 Адрес - местонахождение филиала
+
 7 Проэкт - наименование проэкта для конкретного сотрудника.
+
 
 Какой тип данных у столбцов в этих таблицах, если данные хранятся в PostgreSQL.
 
-
 1 фио  -  строковый (varchar)
+
 2 ОКЛАД  - числовой (decimal/numeric)
+
 3 должность  - строковый (varchar)
+
 4 Тип подразделения - строковый (varchar)
+
 5 Дата - дата и время (tinyint)
+
 6 Адрес - местонахождение филиала (varchar)
+
 7 Проэкт - строковый (varchar)
 
 решение к следующему виду: 
 
 
 staff (
- Employee (ID), primary key, serial varchar(50), 
+
+ Employee (ID), primary key, serial varchar(50),
+ 
  FName VARCHAR(50) ,
+ 
  LName VARCHAR(50) ,
+ 
  Patronymic varchar(50),
+ 
  Structura varchar(50),
+ 
  date_price datetime,
+ 
  position varchar(50),
+ 
  salary numeric,
+ 
  address VARCHAR(50),
+ 
  project VARCHAR(50),
+ 
  PRIMARY KEY(Id),
+ 
  FOREIGN KEY (ManagerId) REFERENCES Employees(Id).
+ 
 )
 
 
