@@ -62,6 +62,7 @@ ___
 
 
 staff (
+<<<<<<< HEAD
 
  Employee (ID), primary key, serial varchar(50),
  
@@ -87,7 +88,60 @@ staff (
  
  FOREIGN KEY (ManagerId) REFERENCES Employees(Id).
  
+=======
+ staff_id primary_key
+ FName_id VARCHAR(50) ,
+ LName_id VARCHAR(50) ,
+ Patronymic_id varchar(50),
+ Structura_id varchar(50),
+ divisions_id varchar(50),
+ date_off_Employee datetime,
+ position_id varchar(50),
+ salary_id numeric,
+ address_id VARCHAR(50),
+ Employee's project_id VARCHAR(50),
+>>>>>>> 085628c (initial commit)
 )
+
+Structura (
+Structura_id primary_key
+Group_id varchar(50)
+structura_type 
+Structura_title
+)
+
+divisions (
+divisions_id primary_key
+department_id varchar(50)
+Unit Group_id varchar(50)
+department_type
+)
+
+date_off_Employee )
+date_off_id primary_key
+date_id datetime
+(
+
+salary (
+salary_id primary_key
+pay_id numeric
+)
+
+branch address (
+address_id primary_key
+edge_id VARCHAR(50)
+city_id VARCHAR(50)
+street_id VARCHAR(50)
+house_id VARCHAR(50)
+)
+
+Employee's project (
+project_id primary_key
+FName_id VARCHAR(50) ,
+LName_id VARCHAR(50) ,
+Patronymic_id varchar(50)
+)
+
 
 
 Дополнительные задания (со звездочкой*)
