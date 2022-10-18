@@ -57,7 +57,9 @@ ALTER USER 'sys_temp'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 **Cкриншот**
 
 ![Снимок экрана от 2022-10-18 21-33-59](https://user-images.githubusercontent.com/94833070/196523568-819aa595-b2c0-442b-9640-fe6681885545.png)
-![Снимок экрана от 2022-10-18 23-43-48](https://user-images.githubusercontent.com/94833070/196523658-5a74fc15-0f16-4ce1-96af-108db7124da5.png)
+
+![Снимок экрана от 2022-10-18 23-43-48](https://user-images.githubusercontent.com/94833070/196524860-1f868ad8-5ff7-409b-bca7-37c7215f3491.png)
+
 
 сформирую ER-диаграмму получившейся базы данных и спользую команду для получения всех таблиц базы данных. (скриншот)
 
