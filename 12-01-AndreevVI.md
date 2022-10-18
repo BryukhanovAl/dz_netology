@@ -63,41 +63,43 @@ ___
 
 staff (
 
- Employee (ID), primary key, serial varchar(50),
- 
+ staff_id primary_key,
+
  FName VARCHAR(50) ,
  
  LName VARCHAR(50) ,
  
  Patronymic varchar(50),
+
+ divisions_id varchar(50),
  
- Structura varchar(50),
+ Structura_id varchar(50),
  
- date_price datetime,
+ date_off_id datetime,
  
- position varchar(50),
+ position_id varchar(50),
  
- salary numeric,
+ salary_id numeric,
  
- address VARCHAR(50),
+ address_id VARCHAR(50),
  
- project VARCHAR(50),
- 
- PRIMARY KEY(Id),
- 
- FOREIGN KEY (ManagerId) REFERENCES Employees(Id).
+ project_id VARCHAR(50),
  
 )
 
-Structura (
+salary (
 
-Structura_id primary_key
+salary_id primary_key
 
-Group_id varchar(50)
+pay numeric
 
-structura_type 
+)
 
-Structura_title
+position (
+
+position_id primary_key
+
+spethion_type
 
 )
 
@@ -105,13 +107,28 @@ divisions (
 
 divisions_id primary_key
 
-department_id varchar(50)
+department varchar(50)
 
-Unit Group_id varchar(50)
+Unit Group varchar(50)
+
+Unit Group_type
 
 department_type
 
 )
+
+Structura (
+
+Structura_id primary_key
+
+Group varchar(50)
+
+Structura_type 
+
+Structura_title
+
+)
+
 
 date_off_Employee )
 
@@ -121,37 +138,26 @@ date_id datetime
 
 (
 
-salary (
-
-salary_id primary_key
-
-pay_id numeric
-
-)
 
 branch address (
 
 address_id primary_key
 
-edge_id VARCHAR(50)
+edge VARCHAR(50)
 
-city_id VARCHAR(50)
+city VARCHAR(50)
 
-street_id VARCHAR(50)
+street VARCHAR(50)
 
-house_id VARCHAR(50)
+house VARCHAR(50)
 
 )
 
-Employee's project (
+project (
 
 project_id primary_key
 
-FName_id VARCHAR(50) 
-
-LName_id VARCHAR(50) 
-
-Patronymic_id varchar(50)
+project_type
 
 )
 
