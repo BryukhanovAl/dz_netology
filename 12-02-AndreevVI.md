@@ -49,17 +49,20 @@ ___
 ALTER USER 'sys_temp'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 
 **Cкриншот**
+
 ![2](https://user-images.githubusercontent.com/94833070/196523362-fed3f779-94a1-4a7f-b2ef-d39e0847de6b.png)
 
 По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачал дамп базы данных и Восстановил дамп в базу данных.Sakila
 
 **Cкриншот**
+
 ![Снимок экрана от 2022-10-18 21-33-59](https://user-images.githubusercontent.com/94833070/196523568-819aa595-b2c0-442b-9640-fe6681885545.png)
 ![Снимок экрана от 2022-10-18 23-43-48](https://user-images.githubusercontent.com/94833070/196523658-5a74fc15-0f16-4ce1-96af-108db7124da5.png)
 
 сформирую ER-диаграмму получившейся базы данных и спользую команду для получения всех таблиц базы данных. (скриншот)
 
 **Cкриншот**
+
 ![Снимок экрана от 2022-10-18 23-57-56](https://user-images.githubusercontent.com/94833070/196523691-daaf8f10-c002-42d2-a5db-f25e55a609fa.png)
 ![Снимок экрана от 2022-10-18 23-58-14](https://user-images.githubusercontent.com/94833070/196523907-897d995d-d3ac-4bd4-bd63-668cbde89081.png)
 
