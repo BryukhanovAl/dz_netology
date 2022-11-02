@@ -82,12 +82,6 @@ ip slave - 192.168.1.7
 
 ![Master status](https://user-images.githubusercontent.com/94833070/199558336-6bd92710-cecc-4b2a-acfe-50b0e28f3f6e.png)
 
-Далее проверяю статус подчиненного устройства с помощью следующей команды: show slave status\G
-
-**Скриншот** 
-
-
-
 
 Создаю базу данных andreevvibd  и проверяю вывод bd 
 
