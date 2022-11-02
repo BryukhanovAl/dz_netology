@@ -62,24 +62,27 @@ ip slave - 192.168.1.7
 Создадим пользователя Slaveuser и сконфигурируем master и slave .
 
 **Скриншот Master**
-
+![master](https://user-images.githubusercontent.com/94833070/199558075-c0c854be-2df7-4942-ae68-d13a6803efea.png)
 
 **Скриншот Slave**
-
+![Slave](https://user-images.githubusercontent.com/94833070/199558184-d4193f13-fa6e-4a53-93f2-231948f3bad1.png)
 
 проверьте привилегии MASTER, используя следующую команду:
 
 **Скриншот**
+![Привилегии](https://user-images.githubusercontent.com/94833070/199558292-a1dad9d0-66f5-4933-acdd-1a2259277b4c.png)
 
 
 проверяю статус Master
 
 **Скриншот**
-
+![Master status](https://user-images.githubusercontent.com/94833070/199558336-6bd92710-cecc-4b2a-acfe-50b0e28f3f6e.png)
 
 Далее проверяю статус подчиненного устройства с помощью следующей команды: show slave status\G
 
 **Скриншот** 
+
+![Master status](https://user-images.githubusercontent.com/94833070/199558498-32f56ef0-9f11-48f3-8e01-bc40ad1bd61c.png)
 
 
 
@@ -87,9 +90,20 @@ ip slave - 192.168.1.7
 
 **Скриншот** 
 
+![вывод](https://user-images.githubusercontent.com/94833070/199558657-effc4b63-f763-4421-954b-33f1554f372d.png)
 
+
+![вывод часть 2 ](https://user-images.githubusercontent.com/94833070/199558672-c7d39345-3923-45dc-bf5c-f70974ff8ebd.png)
 
 Выдно что репликация работает)
+
+
+![1](https://user-images.githubusercontent.com/94833070/199558774-a5d54973-2b26-4b54-ba87-81a5c1c6dd92.png)
+
+
+
+![2](https://user-images.githubusercontent.com/94833070/199558920-f40ce21e-78b6-4a68-84c6-1f2e3196ca36.png)
+
 
 # Дополнительные задания (со звездочкой*)
 Эти задания дополнительные (не обязательные к выполнению) и никак не повлияют на получение вами зачета по этому домашнему заданию. Вы можете их выполнить, если хотите глубже и/или шире разобраться в материале.
