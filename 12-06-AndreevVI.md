@@ -62,23 +62,29 @@ ip slave - 192.168.1.7
 Создадим пользователя Slaveuser и сконфигурируем master и slave .
 
 **Скриншот Master**
+
 ![master](https://user-images.githubusercontent.com/94833070/199558075-c0c854be-2df7-4942-ae68-d13a6803efea.png)
 
 **Скриншот Slave**
+
 ![Slave](https://user-images.githubusercontent.com/94833070/199558184-d4193f13-fa6e-4a53-93f2-231948f3bad1.png)
 
 проверьте привилегии MASTER, используя следующую команду:
 
 **Скриншот**
+
 ![Привилегии](https://user-images.githubusercontent.com/94833070/199558292-a1dad9d0-66f5-4933-acdd-1a2259277b4c.png)
 
 
 проверяю статус Master
 
 **Скриншот**
+
 ![Master status](https://user-images.githubusercontent.com/94833070/199558336-6bd92710-cecc-4b2a-acfe-50b0e28f3f6e.png)
 
 Далее проверяю статус подчиненного устройства с помощью следующей команды: show slave status\G
+
+
 
 **Скриншот** 
 
