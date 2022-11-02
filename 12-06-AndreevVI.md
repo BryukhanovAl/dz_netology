@@ -84,11 +84,8 @@ ip slave - 192.168.1.7
 
 Далее проверяю статус подчиненного устройства с помощью следующей команды: show slave status\G
 
-
-
 **Скриншот** 
 
-![Master status](https://user-images.githubusercontent.com/94833070/199558498-32f56ef0-9f11-48f3-8e01-bc40ad1bd61c.png)
 
 
 
