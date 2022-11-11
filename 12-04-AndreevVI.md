@@ -26,8 +26,8 @@ ___
 
 ___
 **Ответ:**
+![Снимок экрана от 2022-11-11 23-32-58](https://user-images.githubusercontent.com/94833070/201387108-46db8026-06d0-4077-93a7-32a2d69268b3.png)
 
-![Безымянный](https://user-images.githubusercontent.com/94833070/201313322-310ee6b1-a64f-45db-b429-7771a33b0f96.jpg)
 
 
 # Задание 3.
