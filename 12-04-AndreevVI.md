@@ -27,7 +27,7 @@ ___
 ___
 **Ответ:**
 
-![Снимок экрана от 2022-10-24 23-11-37](https://user-images.githubusercontent.com/94833070/197619347-545f056c-fffe-48fc-a574-f7cf910f32f7.png)
+![Безымянный](https://user-images.githubusercontent.com/94833070/201313322-310ee6b1-a64f-45db-b429-7771a33b0f96.jpg)
 
 
 # Задание 3.
