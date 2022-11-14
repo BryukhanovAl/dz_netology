@@ -97,7 +97,8 @@ ___
 ## select case when pg_is_in_recovery() then 'REPLICA' else 'MASTER' end;
 **Скриншот**
 
-___
+___![1](https://user-images.githubusercontent.com/94833070/201700610-5d3678bb-165b-4919-b669-f45225df761a.png)
+
 
 **Посмотрю количество подключенных реплик:**
 
