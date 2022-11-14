@@ -105,21 +105,23 @@ ___![1](https://user-images.githubusercontent.com/94833070/201700610-5d3678bb-16
 ## select count(*) from pg_stat_replication;
 **Скриншот**
 
-____
+____![2](https://user-images.githubusercontent.com/94833070/201706940-221bde4d-a506-411c-8b69-959f595c29a1.png)
+
 
 **Проверяю работоспособность репликации в кластере**
 
 **Создаю таблицу и вставьте одну-две строки.**
 
 ## CREATE TABLE test_table(text varchar);
+**Скриншот**
+
+![3](https://user-images.githubusercontent.com/94833070/201707560-538142d3-47f4-4676-ae32-44e4d620f145.png)
 
 ## insert into test_table values('Строка 1');
 
+![Снимок экрана от 2022-11-13 19-30-08](https://user-images.githubusercontent.com/94833070/201707992-8c5e2b54-479a-4616-883a-27e542f04edb.png)
+
 и добаюляю insert into test_table values('netology'); 
-
-**Скриншот**
-
-___
 
 Подключаюсь к узлу-реплике. Для этого из команды подключения удалите атрибут 
 target_session_attrs , и в параметре атрибут host передайте только имя хоста-реплики. 
@@ -131,6 +133,7 @@ target_session_attrs , и в параметре атрибут host переда
 ## select case when pg_is_in_recovery() then 'REPLICA' else 'MASTER' end;
 **Скриншот**
 
+![1](https://user-images.githubusercontent.com/94833070/201708359-4d14b439-0af1-41ee-9429-6f815642c73d.png)
 
 
 **Проверяю состояние репликации**
@@ -139,6 +142,7 @@ target_session_attrs , и в параметре атрибут host переда
 
 **Скриншот**
 
+![2](https://user-images.githubusercontent.com/94833070/201708560-169f1376-10b4-40a3-8efa-4aa82ff78dcd.png)
 
 
 ## **Для проверки, что механизм репликации данных работает между зонами доступности облака, выполните запрос к таблице, созданной на предыдущем шаге:**
@@ -147,6 +151,9 @@ target_session_attrs , и в параметре атрибут host переда
 
 **Скриншот**
 
+и добаюляю insert into test_table values('netology');   и дополнительные столбцы в таблице.
+
+![Снимок экрана от 2022-11-14 20-58-55](https://user-images.githubusercontent.com/94833070/201708687-bad85272-7104-4153-95d8-6f46f44f0f31.png)
 
 
 
