@@ -13,8 +13,7 @@ ___
 ___
 **Ответ:**
 
-![Снимок экрана от 2022-10-29 22-48-24](https://user-images.githubusercontent.com/94833070/200582903-2ed748b8-87a3-4194-a681-295633dc7ea9.png)
-
+![Снимок экрана от 2022-11-17 02-06-13](https://user-images.githubusercontent.com/94833070/202271093-5db50b8a-8e31-4a53-b984-0c5194c9976c.png)
 
 # Задание 2.
 Выполните explain analyze следующего запроса:
@@ -32,6 +31,10 @@ ___
 
 
 ![Снимок экрана от 2022-11-08 20-51-50](https://user-images.githubusercontent.com/94833070/200586017-93eac636-87fd-4760-9a70-31c8cec2aa02.png)
+
+Файл SQL в архиве .zip
+
+[Индексы.zip](https://github.com/Andreev-Vladimir-Igorevich/dz_netology/files/10024941/default.zip)
 
 
 # Дополнительные задания (со звездочкой*)
