@@ -169,3 +169,132 @@ target_session_attrs , и в параметре атрибут host переда
 Задания, помеченные звездочкой * - дополнительные (не обязательные к выполнению) и никак не повлияют на получение вами зачета по этому домашнему заданию. Вы можете их выполнить, если хотите глубже и/или шире разобраться в материале.
 ___
 **Ответ**
+
+# Файл terraform main.tf
+
+
+terraform {
+  required_providers {
+    yandex = {
+      source = "yandex-cloud/yandex"
+    }
+  }
+}
+
+provider "yandex" {
+  token     = "AQAAAAAcqg_6AATuwaDX7AESpEjukDp47GhLDe4"
+  cloud_id  = "b1go4pl3bsgk4sbe8rjq"
+  folder_id = "b1g6fhreiogi307vbba9"
+  zone      = "{{ zone-id }}"
+}
+
+resource "yandex_mdb_postgresql_cluster" "mypg" {
+  name                = "mypg"
+  environment         = "PRODUCTION"
+  network_id          = yandex_vpc_network.mynet.id
+  security_group_ids  = [yandex_vpc_security_group.pgsql-sg.id]
+  deletion_protection = true
+
+  config {
+    version = 13
+    resources {
+      resource_preset_id = "s2.micro"
+      disk_type_id       = "network-ssd"
+      disk_size          = "10"
+    }
+  }
+
+
+  host {
+    zone      = "ru-central1-a"
+    subnet_id = yandex_vpc_subnet.mysubnet-a.id
+  }
+
+
+  host {
+    zone      = "ru-central1-b"
+    subnet_id = yandex_vpc_subnet.mysubnet-b.id
+  }
+
+
+  host {
+    zone      = "ru-central1-c"
+    subnet_id = yandex_vpc_subnet.mysubnet-c.id
+
+  }
+}
+
+
+resource "yandex_mdb_postgresql_database" "db1" {
+  cluster_id = yandex_mdb_postgresql_cluster.mypg.id
+  name       = "db1"
+  owner      = "andreevvi"
+}
+
+resource "yandex_mdb_postgresql_user" "andreevvi" {
+  cluster_id = yandex_mdb_postgresql_cluster.mypg.id
+  name       = "andreevvi"
+  password   = "master0629"
+}
+
+
+resource "yandex_vpc_network" "mynet" {
+  name = "mynet"
+}
+
+resource "yandex_vpc_subnet" "mysubnet-a" {
+  v4_cidr_blocks = ["10.5.0.0/16"]
+  zone           = "ru-central1-a"
+  network_id     = yandex_vpc_network.mynet.id
+}
+resource "yandex_vpc_subnet" "mysubnet-b" {
+  v4_cidr_blocks = ["10.6.0.0/16"]
+  zone           = "ru-central1-b"
+  network_id     = yandex_vpc_network.mynet.id
+}
+resource "yandex_vpc_subnet" "mysubnet-c" {
+  v4_cidr_blocks = ["10.7.0.0/16"]
+  zone           = "ru-central1-c"
+  network_id     = yandex_vpc_network.mynet.id
+}
+
+resource "yandex_vpc_security_group" "pgsql-sg" {
+  name       = "pgsql-sg"
+  network_id = yandex_vpc_network.mynet.id
+
+
+  ingress {
+    description    = "PostgreSQL"
+    port           = 6432
+    protocol       = "TCP"
+    v4_cidr_blocks = ["0.0.0.0/0"]
+  }
+}
+
+**Скриншот**
+
+![Снимок экрана от 2022-11-20 16-24-32](https://user-images.githubusercontent.com/94833070/202895019-5f50b48e-76dd-4e4f-b043-3cc8aa49928e.png)
+
+**Скриншот db1**
+
+![Снимок экрана от 2022-11-20 16-25-24](https://user-images.githubusercontent.com/94833070/202895053-31bdcbf2-ec7f-4aa3-a586-1c259876350d.png)
+
+**Скриншот terraform в облаке**
+
+![Снимок экрана от 2022-11-20 16-24-53](https://user-images.githubusercontent.com/94833070/202895092-aef051e8-961d-47e2-81dd-d312a3896262.png)
+
+**и хосты **
+
+![Снимок экрана от 2022-11-20 16-25-26](https://user-images.githubusercontent.com/94833070/202895138-2978cf89-dc70-4c58-8406-e3d58c863928.png)
+
+
+
+
+
+
+
+
+
+
+
+
