@@ -173,7 +173,9 @@ ___
 # Файл terraform main.tf
 
 ![1](https://user-images.githubusercontent.com/94833070/202895326-5259e968-87ee-4e89-b8d8-5c7a9d2c47f6.png)
+
 ![2](https://user-images.githubusercontent.com/94833070/202895330-a2a23853-5cff-4bba-98c2-f49ed68630db.png)
+
 ![3](https://user-images.githubusercontent.com/94833070/202895339-2ebe065d-35fe-4402-83ce-8a762fa46ef8.png)
 
 **Скриншот**
