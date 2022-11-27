@@ -50,9 +50,11 @@ ___
 
 ![Снимок экрана от 2022-11-27 15-28-11](https://user-images.githubusercontent.com/94833070/204125942-f966da8c-1501-4430-9469-ca99509d2a61.png)
 
-и сслыдки 
+и ссылки 
 https://www.exploit-db.com/exploits/17491
+
 https://www.exploit-db.com/exploits/15449
+
 https://www.exploit-db.com/exploits/37721
 
 # Задание 2.
