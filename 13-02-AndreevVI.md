@@ -18,6 +18,7 @@ ___
 
 **Скриншот**
 
+![Домашний католог](https://user-images.githubusercontent.com/94833070/205437019-55c1a35e-f32c-4389-aac4-bf03d79f1cec.png)
 
 
 Добавим пользователя cryptouser.
@@ -25,19 +26,22 @@ ___
 
 **Скриншот**
 
-
-
-
+![шифрование](https://user-images.githubusercontent.com/94833070/205437053-fcaa72fa-4f5e-4ccb-b951-4b880b5078d7.png)
 
 **Зашифрованный раздел /home**
 
 **Скриншот**
 
+![Видим зашифрованный раздел](https://user-images.githubusercontent.com/94833070/205437047-bc24c9ed-a51c-45a5-9dae-b42b999071ed.png)
 
 Возвращяем доступ к файлам папки /home 
 
 **Скриншот**
 
+![Размонтирование и доступ к файлам](https://user-images.githubusercontent.com/94833070/205437063-8b3c1848-30d6-4951-b647-1aa0eb6f35bc.png)
+
+
+Как видим доступ появился в домашней папке /home 
 
 # Задание 2.
 Установите поддержку LUKS.
