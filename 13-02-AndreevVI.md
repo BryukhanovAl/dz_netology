@@ -18,7 +18,7 @@ ___
 
 **Скриншот**
 
-![Домашний католог](https://user-images.githubusercontent.com/94833070/205437019-55c1a35e-f32c-4389-aac4-bf03d79f1cec.png)
+![Домашний католог](https://user-images.githubusercontent.com/94833070/205437175-0658f5fa-f5e3-4188-9714-648e29d1313f.png)
 
 
 Добавим пользователя cryptouser.
@@ -26,7 +26,8 @@ ___
 
 **Скриншот**
 
-![шифрование](https://user-images.githubusercontent.com/94833070/205437053-fcaa72fa-4f5e-4ccb-b951-4b880b5078d7.png)
+![шифрование](https://user-images.githubusercontent.com/94833070/205437182-e450d529-e1d3-4d6d-a201-708b95e9721e.png)
+
 
 **Зашифрованный раздел /home**
 
@@ -38,7 +39,7 @@ ___
 
 **Скриншот**
 
-![Размонтирование и доступ к файлам](https://user-images.githubusercontent.com/94833070/205437063-8b3c1848-30d6-4951-b647-1aa0eb6f35bc.png)
+![Размонтирование и доступ к файлам](https://user-images.githubusercontent.com/94833070/205437191-dcd34637-63e7-450f-bb6e-c82bd99ebf1f.png)
 
 
 Как видим доступ появился в домашней папке /home 
